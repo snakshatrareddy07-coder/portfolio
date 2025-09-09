@@ -1,0 +1,104 @@
+body{
+    background-color: #e7fafc;
+    padding: 20px;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+h1:hover{
+     text-decoration: underline;
+}
+p{
+    text-align: center;
+    font-size: 25px;
+}
+nav{
+    text-align: center;
+}
+nav a{
+    border: 1px solid;
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-left: 20px;
+}
+nav a:hover{
+background-color: rgb(84, 80, 194);
+color: white;
+}
+section{
+    background-color: white;width: 800px;margin: 30px auto;
+    border-radius: 10px;
+    padding: 10px; box-shadow: 0 5px 11px rgb(48, 140, 129);
+}
+section h2{
+    border-bottom: 2px solid blue;
+    padding-bottom: 5px;
+}
+hr{
+    margin: 30px auto ; width: 800px; border: 2px solid black;
+}
+figure{
+    text-align: center;
+}
+figure img{
+    border-radius: 50%;
+    border: 3px solid lightseagreen;
+}
+figcaption{
+    font-size: 20px;
+}
+section ul{
+    text-align: left;
+}
+article{
+    background-color: #e7fafc;
+    padding: 20px;
+    margin: 10px;
+    border-left: 4px soild blue;
+    border-radius: 10px;
+    transition: all 5s ease-in-out;
+}
+article:hover{
+     transform: rotate(360deg);
+}
+h3{
+    font-size: 30px;
+}
+summary{
+    font-size: 20px;
+}
+li{
+    background-color: rgb(102, 192, 192);
+    margin-bottom: 10px ;
+    padding: 10px;
+    font-size: 20px;
+}
+ul,ol{
+    list-style-type: none;
+}
+form{
+    text-align: center;
+}
+input,textarea{
+    width: 100%;margin: 15px;
+}
+button{
+    background-color: rgb(93, 138, 223);
+    color: rgb(255, 255, 255) ;
+    padding: 10px;
+    margin-left: 100px;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: aquamarine;
+    color: black;
+}
+a{
+    text-decoration: none;
+}
+figure img:hover{
+     box-shadow: 0 5px 11px rgb(10, 95, 67);
+}
